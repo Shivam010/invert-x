@@ -1,0 +1,6 @@
+html {
+    filter: invert(1) brightness(1.2) hue-rotate(175deg);
+}
+img {
+    filter: invert(1) hue-rotate(45deg);
+}

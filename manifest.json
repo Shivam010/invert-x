@@ -1,0 +1,29 @@
+{
+    "name": "Invert-X",
+    "description": "Invert-X will enable dark mode on websites by setting the filter css property in html tag.",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "css": [
+                "styles.css"
+            ],
+            "matches": [
+                "*://*.google.com/*",
+                "*://*.google.co.in/*",
+                "*://developer.chrome.com/*"
+            ],
+            "exclude_matches": [
+                "*://mail.google.com/*"
+            ]
+        },
+        {
+            "js": [
+                "script.js"
+            ],
+            "matches": [
+                "*://mail.google.com/*"
+            ]
+        }
+    ]
+}
