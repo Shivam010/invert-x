@@ -14,7 +14,8 @@
                 "*://developer.chrome.com/*"
             ],
             "exclude_matches": [
-                "*://mail.google.com/*"
+                "*://mail.google.com/*",
+                "*://meet.google.com/*"
             ]
         },
         {
