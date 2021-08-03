@@ -9,8 +9,6 @@
                 "styles.css"
             ],
             "matches": [
-                "*://*.google.com/*",
-                "*://*.google.co.in/*",
                 "*://developer.chrome.com/*"
             ],
             "exclude_matches": [
@@ -23,7 +21,8 @@
                 "script.js"
             ],
             "matches": [
-                "*://mail.google.com/*"
+                "*://mail.google.com/*",
+                "*://calendar.google.com/*"
             ]
         }
     ]
